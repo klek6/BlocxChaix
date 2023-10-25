@@ -57,7 +57,7 @@ function bundleTransactions(transactions, minSize, maxSize) {
 
 // Specify the bundling range here
 const minBundleSize = 1;
-const maxBundleSize = 10;
+const maxBundleSize = 50;
 
 const bundled = bundleTransactions(transactions, minBundleSize, maxBundleSize);
 

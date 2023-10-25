@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const numOfTransactions = 100;
+const numOfTransactions = 1000;
 const maxAmount = 1000;
 
 function generateRandomAddress() {

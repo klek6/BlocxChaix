@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .block {
+            border: 1px solid black;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Blockchain Visualization</h2>
+    <div id="blockchain"></div>
+
+    <script>
+        // Read the blockchain data from 'BlockchainLedger.json'
+        fetch('BlockchainLedger.json')
+            .then(response => response.json())
+            .then(data => {
+                let chain = data.chain;
+                let container = document.getElementById('blockchain');
+                for (let block of chain) {
+                    let blockElem = document.createElement('div');
+                    blockElem.className = 'block';
+                    blockElem.innerHTML = `
+                        <strong>Index:</strong> ${block.index} <br>
+                        <strong>Timestamp:</strong> ${new Date(block.timestamp).toLocaleString()} <br>
+                        <strong>Previous Hash:</strong> ${block.previousHash} <br>
+                        <strong>Data:</strong> ${block.data} <br>
+                        <strong>Hash:</strong> ${block.hash} <br>
+                        <strong>Nonce:</strong> ${block.nonce}
+                    `;
+                    container.appendChild(blockElem);
+                }
+            });
+
+            // To see the results, in terminal run "python -m http.server" and then
+            // go to "http://localhost:8000/visualizeBlockchain.html"
+    </script>
+</body>
+</html>
