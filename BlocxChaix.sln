@@ -12,6 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		FeedDataGenerator.js = FeedDataGenerator.js
 		Hashing.js = Hashing.js
 		Main.js = Main.js
+		TamperBlockchain.js = TamperBlockchain.js
 		Transaction.js = Transaction.js
 		TransactionHandler.js = TransactionHandler.js
 		visualizeBlockchain.html = visualizeBlockchain.html

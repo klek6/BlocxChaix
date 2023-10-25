@@ -35,6 +35,16 @@ class Blockchain {
         }
         return true;
     }
+
+    restoreChainFromData(data) {
+        this.chain = data.chain.map(blockData => {
+            let block = new Block(blockData.index, blockData.timestamp, blockData.data, blockData.previousHash);
+            block.hash = blockData.hash;
+            block.nonce = blockData.nonce;
+            return block;
+        });
+        this.difficulty = data.difficulty;
+    }
 }
 
 module.exports = Blockchain;

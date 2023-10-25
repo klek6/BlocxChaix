@@ -1,5 +1,3 @@
-// To run, View -> Terminal (opens Developer PowerShell) -> there, write "node FeedDataGenerator.js"
-
 const fs = require('fs');
 
 const numOfTransactions = 1000;
