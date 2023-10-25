@@ -8,8 +8,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Block.js = Block.js
 		Blockchain.js = Blockchain.js
 		BlockchainLedger.json = BlockchainLedger.json
-		Main.js = Main.js
 		FeedData.json = FeedData.json
+		FeedDataGenerator.js = FeedDataGenerator.js
+		Main.js = Main.js
 		Transaction.js = Transaction.js
 	EndProjectSection
 EndProject
