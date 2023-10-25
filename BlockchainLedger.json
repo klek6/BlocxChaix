@@ -1,0 +1,145 @@
+{
+    "chain": [
+        {
+            "index": 0,
+            "previousHash": "",
+            "timestamp": "Genesis block",
+            "data": "0",
+            "hash": "266caa9bd7b6dd9deb6cbecd29f043d7cdf4d4edd789cb5fa60deaf7b0de2951",
+            "nonce": 0
+        },
+        {
+            "index": 0,
+            "previousHash": "266caa9bd7b6dd9deb6cbecd29f043d7cdf4d4edd789cb5fa60deaf7b0de2951",
+            "timestamp": 1698215876203,
+            "data": {
+                "fromAddress": "address1",
+                "toAddress": "address2",
+                "amount": 50
+            },
+            "hash": "002b32d7d27751247d306b0611c12571aeba2f3bd2be002a19c5f207577bbac2",
+            "nonce": 171
+        },
+        {
+            "index": 1,
+            "previousHash": "002b32d7d27751247d306b0611c12571aeba2f3bd2be002a19c5f207577bbac2",
+            "timestamp": 1698215876211,
+            "data": {
+                "fromAddress": "address3",
+                "toAddress": "address4",
+                "amount": 100
+            },
+            "hash": "00f66d1b52a654fcdcb0feec11ef980802dcc967de2c4b99da39841b691a3d87",
+            "nonce": 573
+        },
+        {
+            "index": 2,
+            "previousHash": "00f66d1b52a654fcdcb0feec11ef980802dcc967de2c4b99da39841b691a3d87",
+            "timestamp": 1698215876216,
+            "data": {
+                "fromAddress": "address5",
+                "toAddress": "address6",
+                "amount": 11
+            },
+            "hash": "00a0e1e62a5985672d8b447cbca95e6dd4dbc76290ca56b19ff590b268f2cf46",
+            "nonce": 12
+        },
+        {
+            "index": 3,
+            "previousHash": "00a0e1e62a5985672d8b447cbca95e6dd4dbc76290ca56b19ff590b268f2cf46",
+            "timestamp": 1698215876216,
+            "data": {
+                "fromAddress": "address7",
+                "toAddress": "address8",
+                "amount": 22
+            },
+            "hash": "005c64faba6e6d2c422d38174115c33d0d7934b099135967351ec0dbd246406d",
+            "nonce": 32
+        },
+        {
+            "index": 4,
+            "previousHash": "005c64faba6e6d2c422d38174115c33d0d7934b099135967351ec0dbd246406d",
+            "timestamp": 1698215876217,
+            "data": {
+                "fromAddress": "address9",
+                "toAddress": "address10",
+                "amount": 33
+            },
+            "hash": "00f3086eb7f1188e879bf42d74adb475709d3c5a8af0129bf0f3fe71db0c9731",
+            "nonce": 136
+        },
+        {
+            "index": 5,
+            "previousHash": "00f3086eb7f1188e879bf42d74adb475709d3c5a8af0129bf0f3fe71db0c9731",
+            "timestamp": 1698215876218,
+            "data": {
+                "fromAddress": "address11",
+                "toAddress": "address12",
+                "amount": 44
+            },
+            "hash": "004d6a66c1969f8a3e64864ad7a9744e1dd5c844650d25665c60a5b9db22678a",
+            "nonce": 171
+        },
+        {
+            "index": 6,
+            "previousHash": "004d6a66c1969f8a3e64864ad7a9744e1dd5c844650d25665c60a5b9db22678a",
+            "timestamp": 1698215876219,
+            "data": {
+                "fromAddress": "address13",
+                "toAddress": "address14",
+                "amount": 55
+            },
+            "hash": "003ba9e2bf25c52bbb7292d6db2342c44a11378e38896154e7a0f5dea8b45ec5",
+            "nonce": 3
+        },
+        {
+            "index": 7,
+            "previousHash": "003ba9e2bf25c52bbb7292d6db2342c44a11378e38896154e7a0f5dea8b45ec5",
+            "timestamp": 1698215876220,
+            "data": {
+                "fromAddress": "address15",
+                "toAddress": "address16",
+                "amount": 66
+            },
+            "hash": "00fba2223e168a2a28a2157ee9523d609c789cfb13b118efd6a8367de5f7b65c",
+            "nonce": 122
+        },
+        {
+            "index": 8,
+            "previousHash": "00fba2223e168a2a28a2157ee9523d609c789cfb13b118efd6a8367de5f7b65c",
+            "timestamp": 1698215876221,
+            "data": {
+                "fromAddress": "address17",
+                "toAddress": "address4",
+                "amount": 77
+            },
+            "hash": "003b0f76d936bb18f84973f44084402517fd36e701c6e787778c962fdaba61a9",
+            "nonce": 76
+        },
+        {
+            "index": 9,
+            "previousHash": "003b0f76d936bb18f84973f44084402517fd36e701c6e787778c962fdaba61a9",
+            "timestamp": 1698215876221,
+            "data": {
+                "fromAddress": "address17",
+                "toAddress": "address1",
+                "amount": 88
+            },
+            "hash": "0039269d9d2fffc41078768a2ce9d86dfb077b8c4cfee2dc690abecb8bdf9da8",
+            "nonce": 744
+        },
+        {
+            "index": 10,
+            "previousHash": "0039269d9d2fffc41078768a2ce9d86dfb077b8c4cfee2dc690abecb8bdf9da8",
+            "timestamp": 1698215876227,
+            "data": {
+                "fromAddress": "address17",
+                "toAddress": "address2",
+                "amount": 99
+            },
+            "hash": "003080127bbb1367317002af39628d955f4f702495e3967b0574b741e98fa5a5",
+            "nonce": 412
+        }
+    ],
+    "difficulty": 2
+}
